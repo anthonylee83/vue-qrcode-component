@@ -1,22 +1,22 @@
-# vue-qrcode-component
+# vue-qr-generator
 Create QR codes with a simple Vue component
 
-## [Demo and Documentation on GitHub Pages](https://gerardreches.github.io/vue-qrcode-component/)
+## [Demo and Documentation on GitHub Pages](https://gerardreches.github.io/vue-qr-generator/)
 
 ## Installation
 
 Install the package: 
 ```
 // Using NPM
-npm install vue-qrcode-component
+npm install vue-qr-generator
 
 // or Yarn
-yarn add vue-qrcode-component
+yarn add vue-qr-generator
 ```
 Then register the component:
 ```js
 import Vue from 'vue'
-import VueQRCodeComponent from 'vue-qrcode-component'
+import VueQRCodeComponent from 'vue-qr-generator'
 Vue.component('qr-code', VueQRCodeComponent)
 ```
 Now you can use it as

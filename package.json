@@ -8,7 +8,8 @@
     "code",
     "qrcode",
     "vue",
-    "component"
+    "component",
+    "generator",
   ],
   "author": "Anthony Lee (public.anthonylee@gmail.com) (https://www.anthonydlee.com)",
   "url": "https://github.com/anthonylee83/vue-qrcode-component/issues",

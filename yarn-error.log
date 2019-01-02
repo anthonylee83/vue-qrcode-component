@@ -1,0 +1,71 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js watch
+
+PATH: 
+  C:\Users\Anthony\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Anthony\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\Anthony\AppData\Roaming\npm;C:\Program Files (x86)\Git\cmd;
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "vue-qr-generator",
+    "version": "3.0.0",
+    "description": "Create QR codes with a simple Vue component, Fork of vue-qrcode-component that uses the KeeeX/qrcodejs code generator",
+    "main": "src/QRCode.vue",
+    "keywords": [
+      "qr",
+      "code",
+      "qrcode",
+      "vue",
+      "component",
+      "generator",
+    ],
+    "author": "Anthony Lee (public.anthonylee@gmail.com) (https://www.anthonydlee.com)",
+    "url": "https://github.com/anthonylee83/vue-qrcode-component/issues",
+    "email": "gerardreches@gmail.com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anthonylee83/vue-qrcode-component.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "vue": "^2.0.1",
+      "@keeex/qrcodejs-kx": "^1.0.2"
+    },
+    "browserify": {
+      "transform": [
+        [
+          "babelify",
+          {
+            "presets": [
+              "es2015"
+            ]
+          }
+        ],
+        [
+          "vueify"
+        ]
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\Anthony\documents\code\vue-qrcode-component\package.json: Unexpected token ] in JSON at position 319
+      at JSON.parse (<anonymous>)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:109:13
