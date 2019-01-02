@@ -1,26 +1,27 @@
 {
-  "name": "vue-qrcode-component",
-  "version": "2.1.0",
-  "description": "Create QR codes with a simple Vue component",
+  "name": "vue-qr-generator",
+  "version": "3.0.0",
+  "description": "Create QR codes with a simple Vue component, Fork of vue-qrcode-component that uses the KeeeX/qrcodejs code generator",
   "main": "src/QRCode.vue",
   "keywords": [
     "qr",
     "code",
     "qrcode",
     "vue",
-    "component"
+    "component",
+    "generator",
   ],
-  "author": "Gerard Reches <gerardreches@gmail.com> (https://www.gerardreches.com)",
-  "url": "https://github.com/gerardreches/vue-qrcode-component/issues",
+  "author": "Anthony Lee (public.anthonylee@gmail.com) (https://www.anthonydlee.com)",
+  "url": "https://github.com/anthonylee83/vue-qrcode-component/issues",
   "email": "gerardreches@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gerardreches/vue-qrcode-component.git"
+    "url": "https://github.com/anthonylee83/vue-qrcode-component.git"
   },
   "license": "MIT",
   "dependencies": {
     "vue": "^2.0.1",
-    "qrcode-js-package": "^1.0.4"
+    "@keeex/qrcodejs-kx": "^1.0.2"
   },
   "browserify": {
     "transform": [
